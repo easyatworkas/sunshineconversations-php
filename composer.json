@@ -1,0 +1,25 @@
+{
+  "name": "easyatworkas/sunshineconversations",
+  "description": "PHP client lib for Sunshine Conversations.",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "EasyAtWork\\SunshineConversations\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Jim C K Flaten",
+      "email": "jim@easyatwork.com"
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "7.0"
+    }
+  },
+  "require": {
+    "guzzlehttp/guzzle": "^6.5",
+    "ext-json": "*"
+  }
+}
